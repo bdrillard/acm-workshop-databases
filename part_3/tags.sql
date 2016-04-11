@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS workshop.tags (
+    id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT
+    , tag VARCHAR(64)
+    ,
+
+    PRIMARY KEY(id)
+    , CONSTRAINT UNIQUE(tag)
+);
